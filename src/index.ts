@@ -1,6 +1,6 @@
-import MenuOperationsAlphabets from "./MENUOperationsAlphabets.js"; "./MenuOperationsAlphabets.js";
-import MenuOperationsLanguage from "./MENUOperationsLanguage.js"; "./MenuOperationsLanguage.js";
-import MenuOpeationsStrings from "./MENUOpeationsStrings.js"; "./MenuOpeationsStrings.js";
+import MenuOperationsAlphabets from "./MenuOperationsAlphabets.js";
+import MenuOperationsLanguage from "./MenuOperationsLanguage.js";
+import MenuOperationsStrings from  "./MenuOperationsStrings.js";
 import PromptSync from "prompt-sync";
 
 const prompt = PromptSync();
@@ -22,7 +22,7 @@ do {
       MenuOperationsAlphabets();
       break;
     case 2:
-      MenuOpeationsStrings();
+      MenuOperationsStrings();
       break;
     case 3:
       MenuOperationsLanguage();
