@@ -1,4 +1,4 @@
-import { OC } from "./OC.js";
+import { OC } from "./OperationsStrings.js";
 import PromptSync from "prompt-sync";
 
 export default function MENUOC() {

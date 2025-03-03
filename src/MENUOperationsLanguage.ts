@@ -1,4 +1,4 @@
-import { OL } from "./OL.js";
+import { OL } from "./OperatiosLanguage.js";
 import PromptSync from "prompt-sync";
 
 export default function MENUOL() {

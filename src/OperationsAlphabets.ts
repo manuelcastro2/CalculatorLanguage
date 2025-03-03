@@ -1,4 +1,4 @@
-export class OA {
+export class OperationsAlphabets {
 
   constructor(){}
  

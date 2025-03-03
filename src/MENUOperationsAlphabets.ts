@@ -1,4 +1,4 @@
-import { OA } from "./OA.js";
+import { OA } from "./OperationsAlphabets.js";
 import PromptSync from "prompt-sync";
 
 export default function MENUOA() {

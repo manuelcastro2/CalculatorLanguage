@@ -1,4 +1,4 @@
-export class OL {
+export class OperationsLanguage {
 
   constructor(){
 

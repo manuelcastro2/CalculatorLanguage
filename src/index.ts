@@ -1,6 +1,6 @@
-import MENUOA from "./MENUOA.js";
-import MENUOL from "./MENUOL.js";
-import MENUOC from "./MENUOC.js";
+import MENUOA from "./MENUOperationsAlphabets.js";
+import MENUOL from "./MENUOperationsLanguage.js";
+import MENUOC from "./MENUOpeationsStrings.js";
 import PromptSync from "prompt-sync";
 
 const prompt = PromptSync();

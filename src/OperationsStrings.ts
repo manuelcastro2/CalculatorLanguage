@@ -1,4 +1,4 @@
-export class OC {
+export class OperationsStrings {
 
   constructor(){}
 
