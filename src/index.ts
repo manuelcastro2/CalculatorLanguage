@@ -1,6 +1,6 @@
-import MENUOA from "./MENUOperationsAlphabets.js";
-import MENUOL from "./MENUOperationsLanguage.js";
-import MENUOC from "./MENUOpeationsStrings.js";
+import MenuOperationsAlphabets from "./MENUOperationsAlphabets.js"; "./MenuOperationsAlphabets.js";
+import MenuOperationsLanguage from "./MENUOperationsLanguage.js"; "./MenuOperationsLanguage.js";
+import MenuOpeationsStrings from "./MENUOpeationsStrings.js"; "./MenuOpeationsStrings.js";
 import PromptSync from "prompt-sync";
 
 const prompt = PromptSync();
@@ -19,13 +19,13 @@ do {
   if (isNaN(option)) console.log("alone accept numbers");
   switch (option) {
     case 1:
-      MENUOA();
+      MenuOperationsAlphabets();
       break;
     case 2:
-      MENUOC();
+      MenuOpeationsStrings();
       break;
     case 3:
-      MENUOL();
+      MenuOperationsLanguage();
       break;
     case 0:
       console.log("The program close");

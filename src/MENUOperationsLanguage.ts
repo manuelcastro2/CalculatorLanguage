@@ -1,9 +1,9 @@
-import { OL } from "./OperatiosLanguage.js";
+import { OperationsLanguage } from "./OperatiosLanguage.js";
 import PromptSync from "prompt-sync";
 
-export default function MENUOL() {
+export default function MenuOperationsLanguage() {
   const prompt = PromptSync();
-  const ol = new OL();
+  const ol = new OperationsLanguage();
   let option2: number = 0;
   do {
     console.log("\n--------MENU LANGUAGE--------");

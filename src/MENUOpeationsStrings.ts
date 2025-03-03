@@ -1,9 +1,9 @@
-import { OC } from "./OperationsStrings.js";
+import { OperationsStrings } from "./OperationsStrings.js";
 import PromptSync from "prompt-sync";
 
-export default function MENUOC() {
+export default function MenuOpeationsStrings() {
   const prompt = PromptSync();
-  const oc = new OC();
+  const oc = new OperationsStrings();
   let option2: number = 0;
   do {
     console.log("\n--------MENU STRINGS--------");

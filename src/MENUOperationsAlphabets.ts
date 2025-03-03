@@ -1,9 +1,9 @@
-import { OA } from "./OperationsAlphabets.js";
+import { OperationsAlphabets } from "./OperationsAlphabets.js";
 import PromptSync from "prompt-sync";
 
-export default function MENUOA() {
+export default function MenuOperationsAlphabets() {
   const prompt = PromptSync();
-  const oa = new OA();
+  const oa = new OperationsAlphabets();
   let option2: number = 0;
   do {
     console.log("\n--------MENU ALPHABETS--------");
